@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ef="clr-namespace:ControlExplorer"
+             x:Class="ControlExplorer.MainPage">
+    <StackLayout x:Name="stackLayout" Padding="20" Spacing="10">
+        <Label x:Name="labelWelcome" Text="Welcome to Effects!" />
+        <Switch x:Name="switchEffects" Toggled="OnSwitchToggled" IsToggled="True" />
+
+        <Label Text="Effects are a great way to apply platform-specific UI features to a Xamarin.Forms defined UI.">
+            <Label.Effects>
+                <ef:LabelFontEffect />
+            </Label.Effects>
+        </Label>
+
+        <Button x:Name="buttonClick" Text="Click Count = 0" Clicked="OnButtonClicked" TextColor="White" BackgroundColor="Blue" />
+
+        <Slider Maximum="255" ValueChanged="OnSliderColorValueChanged" MaximumTrackColor="Orange" MinimumTrackColor="Orange"  />
+    </StackLayout>
+</ContentPage>
