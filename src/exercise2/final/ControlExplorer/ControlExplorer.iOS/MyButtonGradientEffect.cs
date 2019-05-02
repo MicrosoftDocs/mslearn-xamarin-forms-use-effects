@@ -36,7 +36,7 @@ namespace ControlExplorer.iOS
         {
             base.OnElementPropertyChanged(e);
 
-            if (Element is Button == false)
+            if (Element is Xamarin.Forms.Button == false)
                 return;
 
             if (e.PropertyName == ButtonGradientEffect.GradientColorProperty.PropertyName
@@ -54,7 +54,7 @@ namespace ControlExplorer.iOS
 
             var xfButton = Element as Button;
             var colorTop = xfButton.BackgroundColor;
-            var colorBottom = ButtonGradientEffect.GetGradientColor(xfButton); ;
+            var colorBottom = ButtonGradientEffect.GetGradientColor(xfButton);
 
             gradLayer = Gradient.GetGradientLayer(colorTop.ToCGColor(), colorBottom.ToCGColor(), (float)xfButton.Width, (float)xfButton.Height);
 

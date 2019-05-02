@@ -44,8 +44,13 @@ namespace ControlExplorer.Droid
             if (Element is Xamarin.Forms.Button == false)
                 return;
 
-            if (e.PropertyName == ButtonGradientEffect.GradientColorProperty.PropertyName || e.PropertyName == VisualElement.BackgroundColorProperty.PropertyName)
+            if (e.PropertyName == ButtonGradientEffect.GradientColorProperty.PropertyName
+            || e.PropertyName == VisualElement.BackgroundColorProperty.PropertyName
+            || e.PropertyName == VisualElement.WidthProperty.PropertyName
+            || e.PropertyName == VisualElement.HeightProperty.PropertyName)
+            {
                 SetGradient();
+            }
         }
 
         void SetGradient()
