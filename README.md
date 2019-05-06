@@ -1,7 +1,6 @@
 # Microsoft Learn: Use effects in Xamarin.Forms
 
-[//]: # (TODO: Link back to Microsoft Learn module.)
-This project contains the source code for the **Use effects in Xamarin.Forms** Microsoft Learn module.
+This project contains the source code for the [**Use effects in Xamarin.Forms**](https://docs.microsoft.com/learn/modules/use-effects-in-xamarin-forms/) Microsoft Learn module.
 
 # Contributing
 
