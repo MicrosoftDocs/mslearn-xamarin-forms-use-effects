@@ -8,7 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
 
-[assembly: ResolutionGroupName("Xamarin")]
+[assembly: ResolutionGroupName("MicrosoftLearn")]
 
 namespace ControlExplorer.Droid
 {

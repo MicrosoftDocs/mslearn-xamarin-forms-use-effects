@@ -4,7 +4,7 @@ namespace ControlExplorer
 {
     class LabelFontEffect : RoutingEffect
     {
-        public LabelFontEffect() : base("Xamarin.CustomFontEffect")
+        public LabelFontEffect() : base("MicrosoftLearn.CustomFontEffect")
         {
         }
     }

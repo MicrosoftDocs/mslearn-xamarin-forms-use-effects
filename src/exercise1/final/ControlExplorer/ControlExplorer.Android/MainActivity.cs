@@ -8,8 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
 
-[assembly: ResolutionGroupName("Xamarin")]
-
+[assembly: ResolutionGroupName("MicrosoftLearn")]
 namespace ControlExplorer.Droid
 {
     [Activity(Label = "ControlExplorer", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]

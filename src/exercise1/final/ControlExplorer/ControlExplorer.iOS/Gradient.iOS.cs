@@ -6,7 +6,7 @@ namespace ControlExplorer.iOS
 {
     public static class Gradient
     {
-        public static CAGradientLayer GetGradientLayer (CGColor colorTop, CGColor colorBottom, nfloat width, nfloat height)
+        public static CAGradientLayer GetGradientLayer(CGColor colorTop, CGColor colorBottom, nfloat width, nfloat height)
         {
             var gradLayer = new CAGradientLayer();
             gradLayer.Frame = new CGRect(0, 0, width, height);

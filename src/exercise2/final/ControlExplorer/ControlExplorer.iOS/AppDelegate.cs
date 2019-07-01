@@ -6,7 +6,7 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 
-[assembly: ResolutionGroupName("Xamarin")]
+[assembly: ResolutionGroupName("MicrosoftLearn")]
 
 namespace ControlExplorer.iOS
 {

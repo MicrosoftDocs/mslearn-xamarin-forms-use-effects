@@ -9,7 +9,7 @@ namespace ControlExplorer
     {
         public static readonly BindableProperty GradientColorProperty = BindableProperty.CreateAttached("GradientColor", typeof(Color), typeof(ButtonGradientEffect), Color.Black);
 
-        public ButtonGradientEffect() : base("Xamarin.ButtonGradientEffect")
+        public ButtonGradientEffect() : base("MicrosoftLearn.ButtonGradientEffect")
         { }
 
         public static void SetGradientColor(VisualElement view, Color color)
